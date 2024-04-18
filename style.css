@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    list-style-type: none;
+    background-color: #7d5402;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+}
+.menu li{
+    float: left;
+}
+.menu li a{
+    color: #ffb700;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.menu li:hover{
+    background-color: #1c690e;
+}
+.menu li a:hover{
+    color: #eeff00;
+    font-weight: 700;
+}
+.text-center{
+    text-align: center;
+}
+.backgroundheader{
+    background-image: url(img/menu.avif);
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.text{
+    height: 400px;
+    font-size: 20px;
+    font-style: italic;
+    font-family:"Jersey 10 Charted", sans-serif;
+    font-style:normal;
+    font-weight: 400;
+    text-shadow: 0 0 10px rgb(183, 255, 0);
+    color: #023e13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.info{
+    
+    color:hsl(123, 93%, 40%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    width: 90%;
+    padding: 80px 0;
+    margin: auto;
+}
+.title{
+    color:#8bef6f;
+    text-shadow: 0 0 10px #f1edf0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 200px;
+    margin-bottom: 20px;
+}
+.paragraph{
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.contenedor-card {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card {
+    box-shadow: 0 0 3px black;
+    width: 30%;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(136, 111, 12);
+}
+.card:hover {
+    box-shadow: 0 0 10px rgb(253, 227, 0);
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+
+.card p {
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.card h3 {
+    padding: 25px;
+}
+
+.margen-icon {
+    margin-top: 25px;
+}
+.niveles{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+.niveles img {
+    width: 30%;
+    margin-bottom: 40px;
+    box-shadow: 0 0 10px #020019;
+}
+.contacto{
+    background-color: #ebf400;
+    color: #ffffff;
+}
+
+.socials{
+    list-style: none;
+
+}
+
+.socials a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: hsl(84, 96%, 51%);
+    
+}
+.socials a:hover{
+    color: #7f5c03;
+}
+
+
